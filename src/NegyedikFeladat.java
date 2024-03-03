@@ -15,8 +15,8 @@ public class NegyedikFeladat {
         System.out.println("A páros osztható számok 1 és 10 között a következők: ");
         int[] nums = new int[10];
         for (int i = 0; i < nums.length; i++) {
-            if (i % 2 == 0) ;
-            nums[i] = i + 1;
+          //  if (i % 2 == 0) ;
+            nums[i] = i;
         }
 
         for (int num : nums) {
